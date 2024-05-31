@@ -19,6 +19,8 @@ nav.vertical-navigation {
 }
 nav.vertical-navigation ul {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;    
 }
 nav.vertical-navigation ul li {
 
@@ -31,4 +33,26 @@ nav.vertical-navigation ul li a {
 }
 nav.vertical-navigation ul li a:hover {
     background-color: #333333;
+}
+
+
+nav.horizontal-navigation {
+    background-color: #34495e;
+}
+nav.horizontal-navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav.horizontal-navigation ul li {
+    display: inline-block;
+}
+nav.horizontal-navigation ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 20px 15px 20px;
+}
+nav.horizontal-navigation ul li a:hover {
+    background-color: #ea4335;
 }
