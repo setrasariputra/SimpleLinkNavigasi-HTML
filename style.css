@@ -15,7 +15,7 @@ body {
     background-color: #34a853;
 }
 nav.vertical-navigation {
-    width: 300px;
+    width: 300px; /* fixed width */
 }
 nav.vertical-navigation ul {
     list-style-type: none;
@@ -37,6 +37,7 @@ nav.vertical-navigation ul li a:hover {
 
 
 nav.horizontal-navigation {
+    width: 80%; /* dynamic width */
     background-color: #34495e;
 }
 nav.horizontal-navigation ul {
@@ -52,6 +53,18 @@ nav.horizontal-navigation ul li a {
     text-decoration: none;
     color: #ffffff;
     padding: 15px 20px 15px 20px;
+}
+nav.horizontal-navigation ul ul {
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: #333333;
+}
+nav.horizontal-navigation ul li:hover ul {
+    display: block;
+}
+nav.horizontal-navigation ul li:hover ul li {
+    display: block;
 }
 nav.horizontal-navigation ul li a:hover {
     background-color: #ea4335;
