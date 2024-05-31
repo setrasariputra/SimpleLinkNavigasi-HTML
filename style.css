@@ -2,3 +2,33 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #00d8ff;
 }
+.bg-blue {
+    background-color: #4285f4;
+}
+.bg-red {
+    background-color: #ea4335;
+}
+.bg-yellow {
+    background-color: #fbbc05;
+}
+.bg-green {
+    background-color: #34a853;
+}
+nav.vertical-navigation {
+    width: 300px;
+}
+nav.vertical-navigation ul {
+    list-style-type: none;
+}
+nav.vertical-navigation ul li {
+
+}
+nav.vertical-navigation ul li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+nav.vertical-navigation ul li a:hover {
+    background-color: #333333;
+}
